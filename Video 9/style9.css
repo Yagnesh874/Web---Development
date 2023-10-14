@@ -1,0 +1,14 @@
+/*To access the class using (.)*/
+.red {
+    background-color: beige;
+}
+
+/*To access the Id using (#)*/
+
+#Firstdiv {
+    background-color: brown;
+}
+
+#Secondiv {
+    background-color: blueviolet;
+}
