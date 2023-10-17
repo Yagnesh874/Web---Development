@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color: brown;
+            --custom-width:330px;
+        }
+        .container{
+            background-color: blanchedalmond;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: cadetblue;
+            border: 2px solid var(--primary-color);
+            margin: 2px;
+            padding: 3px;
+            width: var(--custom-width);
+            height: 400px;
+            /* box-shadow: 10px 5px rebeccapurple; */
+            /* box-shadow: 2px 5px 30px black; */
+            /* box-shadow: 2px 5px 21px 30px burlywood; */
+            /* box-shadow: inset 10px 5px blueviolet; */
+            /* box-shadow: 10px 15px red,15px 8px greenyellow; */
+        }
+        img{
+            width: 225px;
+        }
+        #heading{
+            text-shadow: 10px 15px red,15px 8px green;
+            /* text-shadow: 12px 5px 2px blueviolet; */
+            /* text-shadow: 12px 23px; */
+            /* text-shadow: burlywood 21px 12px; */
+            /* text-shadow: white 21px 12px 3px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="logo.avif" alt="">
+            <h2 id="heading">Welcome to development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sunt quisquam tenetur dignissimos doloribus earum in consectetur ad nemo ea. Odio, dolor maxime.</p>
+        </div>
+    </div>
+</body>
+</html>
