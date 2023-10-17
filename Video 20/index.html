@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction:row-reverse ; */
+            height: 1200px;
+
+
+            /* --------------------------------------------------------------------
+            | When a item center in the horizontal then used the justify-content  |
+            -----------------------------------------------------------------------
+            
+            - */
+            /* justify-content: center; */
+            justify-content: start;
+            /* justify-content: end; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+
+            /* --------------------------------------------------------------
+            | When a item center in the vertical then used the align-items  |
+            -----------------------------------------------------------------
+
+            
+            align-items: start;
+            /* align-items: center;*/
+            /* align-items: end; */
+            /* align-items: flex-end; */
+            /* align-items: flex-start;  */
+            /* align-items: self-start; */
+            align-content: center;
+        }
+        .box{
+            /* height: 200px;
+            width: 200px; */
+            margin: 10px;
+            border: 2px solid rgb(227, 139, 24);
+        }
+        #box1{
+            background-color: rgb(227, 139, 24);
+            /* order: 500; */
+            align-self: center;
+            align-self: flex-start;
+            align-self: flex-end;
+        }
+        #box2{
+            background-color: beige;
+        }
+        #box3{
+            background-color: blueviolet;
+        }
+        #box4{
+            background-color: rgb(117, 24, 81);
+            /* flex-shrink: 4; */
+            /* flex-grow: 1; */
+            /* order: -1; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+        <div class="box" id="box3">Box 3</div>
+        <div class="box" id="box4">Box 4</div>
+    </div>
+</body>
+</html>
