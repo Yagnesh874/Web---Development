@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px ;
+            overflow: hidden;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: blueviolet;
+            border: 3px solid black;
+        }
+        .box{
+            width: 350px;
+            height: 50px;
+            background-color: cadetblue;
+            border: 2px solid black;
+            margin: 3px;
+            padding: 10px;
+            border-radius: 10px;
+            position: relative;
+            animation-name:rightMovement;
+            /* animation-duration: 2s; */
+            /* animation-iteration-count: infinite; */
+            /* animation-delay: 3; */
+            /*-------------------------------
+            | Same speed from start to end  | 
+            --------------------------------- */
+            /* animation-timing-function: linear; */
+
+            /*-------------------------------
+            |          slow start           | 
+            --------------------------------- */
+
+            /* animation-timing-function: ease-in; */
+
+            /*-------------------------------
+            |          slow end           | 
+            --------------------------------- */
+
+            /* animation-timing-function: ease-out; */
+
+            /*-------------------------------
+            |          slow start & end        | 
+            --------------------------------- */
+            /* animation-timing-function: ease-in-out; */
+            /* animation-timing-function:cubic-bezier(1,0,0,1); */
+            /* animation-direction: alternate-reverse; */
+            /* animation-fill-mode: forwards; */
+            /* animation-fill-mode: backwards; */
+
+
+            /* @keyframes duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name */
+        animation: 3s ease-in 1s  infinite alternate none running rightMovement;
+        }
+        @keyframes rightMovement {
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top: 0;
+                left: 1200px;
+            }
+            
+        }
+        #box2{
+            width: 350px;
+            height: 50px;
+            background-color: cadetblue;
+            border: 2px solid black;
+            margin: 3px;
+            padding: 10px;
+            border-radius: 10px;
+            /* position: relative;    */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+    <div id="box2">
+
+    </div>
+    <div class="box3">
+    </div>
+</body>
+</html>
