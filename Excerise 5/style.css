@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat:ital,wght@0,600;1,200&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,700&family=Playpen+Sans:wght@300;500&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat:ital,wght@0,600;1,200&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,700&family=Playpen+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+.bg-img {
+    border: 2px solid black;
+    background: url(bg2.jpeg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+ul {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+ul li a {
+    padding: 7px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-weight: bolder;
+}
+
+li a:hover {
+    background-color: blueviolet;
+    color: wheat;
+}
+
+#menu2 a {
+    /* border: 2px solid black; */
+    background-color: lightblue;
+    color: white;
+}
+
+.form label {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.input input {
+    width: 266px;
+    border-radius: 5px;
+}
+
+.input3 textarea {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+.input4 input {
+    font-size: 25px;
+    padding: 12px;
+    float: right;
+    text-align: center;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    color: chartreuse;
+    font-weight: bolder;
+}

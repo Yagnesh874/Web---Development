@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat:ital,wght@0,600;1,200&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;0,800;1,400;1,700&family=Playpen+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+        .menu{
+            background-repeat: no-repeat;
+        }
+        .img{
+            background: url(bg2.jpeg);
+            height: 50vh;
+            width: 200vh;
+
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            list-style: none;
+        }
+
+        li a {
+            /* padding: 50px; */
+            font-family: 'Baloo Bhai 2', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Playfair Display', serif;
+            font-family: 'Playpen Sans', cursive;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            position: relative;
+        }
+
+        li a:hover {
+            background-color: blueviolet;
+            color: wheat;
+        }
+
+        #menu2 a {
+            border: 2px solid;
+            background-color: rebeccapurple;
+            color: wheat;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <div class="img">
+                <!-- <img src="bg2.jpeg" alt=""> -->
+            </div>
+            <nav>
+                <ul>
+                <li class="menu1"> <a href="Home">Home</a> </li>
+                <li class="menu1"> <a href="#Rooms">Rooms</a> </li>
+                <li class="menu1"> <a href="#Rastaurant">Rastaurant</a></li>
+                <li class="menu1"> <a href="#About">About</a> </li>
+                <li class="menu1"> <a href="#Blog">Blog</a> </li>
+                <li id="menu2"> <a href="#Contact">Contact</a> </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- <main>
+    
+</main>
+<footer>
+    
+</footer>  -->
+</body>
+
+</html>
