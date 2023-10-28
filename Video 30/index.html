@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --color: rgb(197, 58, 43);
+            --bg2-color: rgb(80, 84, 213);
+            --bg-color: pink;
+            --defmar: 21px;
+            --defpadd: 21px
+        }
+
+        .nav {
+            background-color: var(--bg-color);
+            color: var(--color);
+        }
+
+        ul li {
+            margin: var(--defmar);
+            padding: var(--defpadd);
+            list-style: none;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: var(--bg2-color);
+            color: var(--color);
+            margin: var(--defmar);
+            padding: var(--defpadd);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nesciunt eligendi quisquam eveniet, natus
+        debitis quia ratione possimus consequatur beatae ut deleniti assumenda voluptates.
+    </div>
+</body>
+
+</html>
