@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+         .box:first-child{ 
+             background-color: aqua; 
+         }
+         .box::first-line{
+             color: aqua;
+            }
+            .boxes *{
+                border: 2px solid black;
+            } 
+            p,a,.box,[data-color="primary"]{
+                margin-top: 21px;
+                padding: 21px;
+            }
+            .box:nth-child(even){
+                background-color: blueviolet;
+            }
+            .box:nth-child(odd){
+                background-color: brown;
+            }
+            .box:nth-last-child(1){
+                background-color: cadetblue;
+            }
+            .boxes::before{
+                content: "How are you?";
+                color:blueviolet;
+            }
+            .boxes::after{
+                content:"hey i am good";
+                color: brown;
+            }
+            */
+            ::selection{
+                color: brown;
+                background-color: chartreuse;
+            }
+            .box:first-letter
+            {
+                color: aquamarine;
+            }
+            input::placeholder{
+                color: blueviolet;
+                font-size: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary"   class="box">Hey i am box 1</div>
+        <div class="box">Hey i am box 2</div>
+        <div class="box">Hey i am box 3</div>
+        <input type="text " placeholder="Enter your name">
+    </div>
+</body>
+</html>
