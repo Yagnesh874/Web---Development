@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+
+            overflow: hidden;
+        }
+
+        .box input {
+            background-color: #2d3e48;
+            border-radius: 24px;
+            height: 40px;
+            width: 328px;
+            border: 2px solid;
+        }
+
+        input[type="text"]::placeholder {
+            color: #ced5d9;
+        }
+
+        button {
+            position: relative;
+            top: 7px;
+            /* background-color:#28a745; */
+            border-radius: 40px;
+            border: none;
+        }
+
+        /* .button img { */
+            /* color: aliceblue; */
+        /* } */
+
+        img {
+            /* background-color: green; */
+            height: 35px;
+            position: relative;
+            top: 6px;
+            border: none;
+        }
+        
+        /* .camera {
+            height: 27px;
+            background-color: #2d3e48;
+            position: relative;
+            right: 137px;
+        }
+        */
+        .camera {
+            position: relative;
+            right: 120px;
+            background-color: #2d3e48;
+            border: none;
+        } 
+        .camera img{
+             color: aliceblue; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <input type="text" name="text" id="text" placeholder="Message">
+            <button><img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1pYyI+PHBhdGggZD0iTTEyIDJhMyAzIDAgMCAwLTMgM3Y3YTMgMyAwIDAgMCA2IDBWNWEzIDMgMCAwIDAtMy0zWiIvPjxwYXRoIGQ9Ik0xOSAxMHYyYTcgNyAwIDAgMS0xNCAwdi0yIi8+PGxpbmUgeDE9IjEyIiB4Mj0iMTIiIHkxPSIxOSIgeTI9IjIyIi8+PC9zdmc+"
+                    alt=""></button>
+            <button class="camera"> <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhbWVyYSI+PHBhdGggZD0iTTE0LjUgNGgtNUw3IDdINGEyIDIgMCAwIDAtMiAydjlhMiAyIDAgMCAwIDIgMmgxNmEyIDIgMCAwIDAgMi0yVjlhMiAyIDAgMCAwLTItMmgtM2wtMi41LTN6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMyIgcj0iMyIvPjwvc3ZnPg=="
+                    alt=""> </button>
+        </div>
+    </div>
+</body>
+
+</html>
